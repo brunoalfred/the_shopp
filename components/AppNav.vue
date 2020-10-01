@@ -10,7 +10,7 @@
                 <nuxt-link to="/all">All</nuxt-link>
             </li>
             <li>
-                <nuxt-link to="/furniture">Women</nuxt-link>
+                <nuxt-link to="/furniture">Furniture</nuxt-link>
             </li>
             <li>
                 <nuxt-link to="/tv">Tv</nuxt-link>
