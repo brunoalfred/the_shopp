@@ -1,23 +1,23 @@
 <template>
-  <section>
+<section>
     <ul>
-      <li>About</li>
-      <li>Company</li>
-      <li>Locations</li>
-      <li>Contact</li>
-      <li>Hours</li>
+        <li><a href="#">About</a></li>
+        <li><a href="#"> Company</a></li>
+        <li><a href="#"> Locations</a></li>
+        <li><a href="#"> Contact</a></li>
+        <li><a href="#"> Hours</a></li>
     </ul>
     <ul>
-      <li>Twitter</li>
-      <li>Facebook</li>
-      <li>Instagram</li>
-      <li>LinkedIn</li>
+        <li><a href="#"> Twitter</a></li>
+        <li><a href="#"> Facebook</a></li>
+        <li><a href="#"> Instagram</a></li>
+        <li><a href="#"> LinkedIn</a></li>
     </ul>
     <ul>
-      <h4>Newsletter:</h4>
-      <input type="text" />
+        <h4>Newsletter:</h4>
+        <input type="text" />
     </ul>
-  </section>
+</section>
 </template>
 
 <script>
@@ -26,25 +26,25 @@ export default {};
 
 <style lang="scss" scoped>
 section {
-  width: 80%;
-  margin-left: 10%;
-  padding: 40px 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin-left: 10%;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 ul {
-  list-style: none;
-  padding-left: 0;
+    list-style: none;
+    padding-left: 0;
 }
 
 input {
-  width: 100%;
+    width: 100%;
 }
 
 @media screen and (min-width: 850px) {
-  section {
-    padding: 40px !important;
-  }
+    section {
+        padding: 40px !important;
+    }
 }
 </style>
