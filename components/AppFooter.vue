@@ -1,18 +1,19 @@
 <template>
 <footer>
     <section class="callout">
-        <h2>"The surprising styles of Skyline Ivy are advanced for all seasons."</h2>
-        <p>Hansel Andersen</p>
+        <h2>
+            "The Shopp is a place for all your needs, get to enjoy the quality."
+        </h2>
+        <p>Shoo Visual</p>
     </section>
     <app-footer-links />
     <div class="sarahstuff">
         <p>
-            This project is
-            <a href="https://github.com/sdras/ecommerce-netlify">open source on github</a>,
-            hosted with
-            <a href="https://bit.ly/2G29YwK">Netlify</a>, and made with love by Sarah Drasner,
-            <a href="https://twitter.com/sarah_edo">@sarah_edo (twitter)</a> &
-            <a href="https://github.com/sdras">@sdras (github)</a>
+            This website is made with love by
+            <a href="https://github.com/orgs/Jasiri-Inc/">Jasiri </a>, hosted with
+            <a href="https://bit.ly/2G29YwK">Netlify</a>, under
+            <a href="https://twitter.com/alfredy_bruno">@brunoalfred (twitter)</a> &
+            <a href="https://github.com/brunoalfred">@brunoalfred (github)</a>
         </p>
     </div>
 </footer>
@@ -23,8 +24,8 @@ import AppFooterLinks from "~/components/AppFooterLinks.vue";
 
 export default {
     components: {
-        AppFooterLinks
-    }
+        AppFooterLinks,
+    },
 };
 </script>
 
