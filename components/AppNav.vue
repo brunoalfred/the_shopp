@@ -9,14 +9,12 @@
             <li>
                 <nuxt-link to="/all">All</nuxt-link>
             </li>
+
             <li>
-                <nuxt-link to="/furniture">Furniture</nuxt-link>
+                <nuxt-link to="/new">New</nuxt-link>
             </li>
             <li>
-                <nuxt-link to="/tv">Tv</nuxt-link>
-            </li>
-            <li>
-                <nuxt-link to="/music">Music</nuxt-link>
+                <nuxt-link to="/offer">Offers</nuxt-link>
             </li>
 
             <li>
